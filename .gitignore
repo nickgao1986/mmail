@@ -21,3 +21,5 @@
 #System ignore
 .DS_STORE
 Thumbs.db
+/target/
+/out/
