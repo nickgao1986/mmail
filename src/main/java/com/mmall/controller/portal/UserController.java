@@ -39,6 +39,12 @@ public class UserController {
         if(response.isSuccess()){
             session.setAttribute(Const.CURRENT_USER,response.getData());
         }
+//        response.addHeader("Access-Control-Allow-Origin","*");
+//        response.addHeader("Access-Control-Allow-Methods","*");
+//        response.addHeader("Access-Control-Max-Age","100");
+//        response.addHeader("Access-Control-Allow-Headers", "Content-Type");
+//        response.addHeader("Access-Control-Allow-Credentials","false");
+
         return response;
     }
 
